@@ -58,4 +58,30 @@ i = 0
 while (i < 2):
   move()
   i = i + 1 
+  
+robot.goto(startx, starty)
+robot.color("blue")
+robot.pencolor("blue")
+
+i = 0
+while (i < 4):
+  turn_left()
+  i = i + 1 
+  
+i = 0
+while (i < 3):
+  move()
+  i = i + 1 
+  
+turn_left()
+
+i = 0
+while (i < 3):
+  move()
+  i = i + 1 
+
+turn_left()
+move()
+
+
 wn.mainloop()
